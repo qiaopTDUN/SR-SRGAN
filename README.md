@@ -28,7 +28,9 @@ Adversarial loss + MSE loss, Adversarial loss + MSE loss + context loss.
 Adam, SGD, RMSProp.
 
 # Train
-set 'is_train' to True set batch_size to fit your GPU memory, larger is better.
+set 'is_train' to True.
+
+set 'batch_size' to fit your GPU memory, larger is better.
 
 set 'image_size' to fit your GPU memory, larger is better, but harder to train.
 
